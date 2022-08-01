@@ -1,7 +1,14 @@
 import React from 'react'
+import Colors from './Colors'
+import Gallery from './Gallery'
 
 const App = () => {
-  return <div>React development has begun!</div>
+  return (
+    <>
+      <Colors />
+      <Gallery />
+    </>
+  )
 }
 
 export default App
