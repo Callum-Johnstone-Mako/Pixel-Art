@@ -10,10 +10,14 @@ const Gallery = (props) => {
         type="button"
         style={{ backgroundColor: 'grey', fontSize: '50px' }}
         value="Gallery"
-        onClick={() => getGallery('./SavedPictures/')}
+        onClick={() => listGallery('./SavedPictures/')}
       />
     </div>
   )
+}
+
+function listGallery(Gallery) {
+  window.prompt(Gallery)
 }
 
 export default Gallery
